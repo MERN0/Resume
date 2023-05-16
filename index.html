@@ -9,8 +9,6 @@
     <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
-    <!-- typed js  -->
-    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 </head>
 <body>
     <header class="header">
@@ -143,16 +141,16 @@
     <section class="contact" id="contact">
         <h2 class="heading">Contact <span>Me!</span></h2>
 
-        <form action="#">
+        <form action="https://formsubmit.co/dummymerno@gmail.com" target="blank" method="POST">
             <div class="input-box">
-                <input type="text" placeholder="Full Name">
-                <input type="email" placeholder="Email Address">
+                <input type="text" id="name" placeholder="Full Name">
+                <input type="email" id="email" placeholder="Email Address">
             </div>
             <div class="input-box">
-                <input type="number" placeholder="Phone Number">
-                <input type="text" placeholder="Email Subject">
+                <input type="number" id="phone" placeholder="Phone Number">
+                <input type="text" id="subject" placeholder="Email Subject">
             </div>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message"></textarea>
 
             <input type="submit" value="Send Message" class="btn
             ">
@@ -179,6 +177,10 @@
     <!-- custom js -->
     <script src="script.js"></script>
 
-    
+    <!-- typed js  -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- mailer -->
+    <!-- <script src="https://smtpjs.com/v3/smtp.js"></script> -->
 </body>
 </html>
