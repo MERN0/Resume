@@ -78,6 +78,7 @@ section{
 
 .home-img img{
     width: 26vw;
+    margin-left: 6rem;
     animation: floatImage 4s ease-in-out infinite;
 }
 
@@ -164,6 +165,7 @@ span{
 
 .about-img img{
     width: 26vw;
+    margin-right: 6rem;
 }
 
 .heading{
