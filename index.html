@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Anshuman</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>
+                Hello it's me.
+            </h3>
+            <h1>
+                Anshuman Patnaik
+            </h1>
+            <h3>
+                And I'm a <span>Frontend Developer</span>
+            </h3>
+            <p>Amateur level experience in web design and knowledge, producing quality work.</p>
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-linkedin-square'></i></a>
+                <a href="#"><i class='bx bxl-discord-alt'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-github'></i></a>
+            </div>
+            <a href="#" class="btn">Download Resume</a>
+        </div>
+
+        <div class="home-img">
+            <img src="home-photo.jpeg" alt="">
+        </div>
+    </section>
+
+    <!-- about section -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="about-photo.jpeg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">
+                About <span>Me</span>
+            </h2>
+            <h3>Frontend Developer</h3>
+            <p>An ameature Web Developer with with a hunger to learn more.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <h2 class="heading">
+            My <span>Skills</span>
+        </h2>
+
+        <div class="skills-container">
+            <div class="skills-box">
+                <i class='bx bxl-html5'></i>
+                <h3>Web Dev</h3>
+                <p>HTML, CSS, JavaScript, ReactJS(Basics)</p>
+                <a href="#" class="btn">know More</a>
+            </div>
+
+            <div class="skills-box">
+                <i class='bx bxl-java'></i>                
+                <h3>JAVA</h3>
+                <p>Data Structures and Algorithms on LeetCode</p>
+                <a href="#" class="btn">know More</a>
+            </div>
+
+            <div class="skills-box">
+                <i class='bx bxl-javascript' ></i>                <h3>JavaScript</h3>
+                <p>Basics of JavaScript to build and animate a responsive website</p>
+                <a href="#" class="btn">know More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">My <span>Journey</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="school1.jpeg" alt="">
+                <div class="portfolio-layer">
+                    <h4>High School</h4>
+                    <p>St. Jospeh's high school,
+                        2006-2018
+                        10th - 92%
+                    </p>
+                    <a href="#"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="school2.jpeg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Secondary School</h4>
+                    <p>St. Jospeh's higher Secondary school,
+                        2018-2020
+                        12th - 76%</p>
+                    <a href="#"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="college1.jpeg" alt="">
+                <div class="portfolio-layer">
+                    <h4>College</h4>
+                    <p>BTech at S'O'A ITER
+                    , 2020-24
+                    CGPA 8.35
+                    </p>
+                    <a href="#"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Phone Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+
+            <input type="submit" value="Send Message" class="btn
+            ">
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>
+                Copright &copy; 2023 by Anshuman.
+            </p>
+        </div>
+        <div class="footer-icontop">
+            <a href="#home"><i class='bx bx-chevrons-up' ></i></a>
+        </div>
+    </footer>
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- custom js -->
+    <script src="script.js"></script>
+</body>
+</html>
